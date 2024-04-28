@@ -3,19 +3,11 @@ import os
 from ultralytics import YOLO
 import cv2
 
-
-VIDEOS_DIR = os.path.join('.', 'videos')
-
-video_path = os.path.join(VIDEOS_DIR, 'su_alti_circle.mp4')
-video_path_out = '{}_out.mp4'.format(video_path)
-
-#cap = cv2.VideoCapture(video_path)
-#cap = cv2.VideoCapture('marol_bitki_detection.mp4')
-cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture('marol_bitki_detection.mp4') # this line it to use video file like a video source
+cap = cv2.VideoCapture(0) #this line it for use realtime camera close it if you want to use another video source
 ret, frame = cap.read()
 H, W, _= frame.shape
-#out = cv2.VideoWriter(video_path_out, cv2.VideoWriter_fourcc(*'MJPG'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
-out = cv2.VideoWriter('marol_bitki2.avi', cv2.VideoWriter_fourcc(*'MJPG'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
+out = cv2.VideoWriter('letuce_detect_result_1.avi', cv2.VideoWriter_fourcc(*'MJPG'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
 
 #model_path = os.path.join('.', 'runs', 'detect', 'train', 'weights', 'best.pt')
 model_path = os.path.join('.', 'runs', 'detect', 'yolov8n_custom', 'weights', 'last.pt') 
