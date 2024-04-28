@@ -1,0 +1,13 @@
+train: C:\Users\leone\Desktop\makinafleo_project\altay_bot\cod\python\marol_bitki\marol_bitki_yolo\dataset\train\images
+val: C:\Users\leone\Desktop\makinafleo_project\altay_bot\cod\python\marol_bitki\marol_bitki_yolo\dataset\valid\images
+test: C:\Users\leone\Desktop\makinafleo_project\altay_bot\cod\python\marol_bitki\marol_bitki_yolo\dataset\test\images
+
+nc: 1
+names: ['marol_bitki']
+
+roboflow:
+  workspace: computervision-of3yl
+  project: marol_model
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computervision-of3yl/marol_model/dataset/1
