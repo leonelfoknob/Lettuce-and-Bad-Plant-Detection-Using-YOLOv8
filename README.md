@@ -20,9 +20,12 @@ Components and Methodology:
 
   - Script: The custom_data_predict.py file was used to make predictions, running on video files but also capable of processing real-time camera input.
   - Outputs: The trained model can identify and classify plants in live footage, making it suitable for use in unmanned agricultural vehicles or drones.
-Teknofest Unmanned Agriculture Vehicle Competition:
-- Participation: This project was submitted as part of Teknofest’s Unmanned Agriculture Vehicle competition, where the aim was to create autonomous systems capable of assisting in farming operations.
-- Objective: The primary task was to detect and differentiate lettuce plants from bad plants, helping farmers manage their crops more efficiently.
+
+- Teknofest Unmanned Agriculture Vehicle Competition:
+
+  - Participation: This project was submitted as part of Teknofest’s Unmanned Agriculture Vehicle competition, where the aim was to create autonomous systems capable of assisting in
+  farming operations.
+  - Objective: The primary task was to detect and differentiate lettuce plants from bad plants, helping farmers manage their crops more efficiently.
 
 Training and Model Files:
 
