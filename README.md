@@ -1,4 +1,4 @@
-# latuce-plant-detection-using-yolov8
+# Lettuce and Bad Plant Detection Using YOLOv8
 This project focuses on leveraging machine learning to detect lettuce plants and unwanted or "bad" plants in agricultural fields. Using the YOLOv8n model, the system was designed as part of the Unmanned Agriculture Vehicle competition at Teknofest, where the goal was to create a system that could autonomously identify and differentiate between healthy lettuce plants and undesirable plants, optimizing agricultural productivity.
 
 Project Video:
