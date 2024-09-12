@@ -15,6 +15,7 @@ Components and Methodology:
   - Model Training: The same methodology from a previous project (underwater circle detection) was applied here. Using the YOLOv8n model, a custom training process was set up to identify and detect lettuce and bad plants.
   - High Accuracy: The model achieved exceptional accuracy in detecting both lettuce and bad plants, ensuring its viability in real-world agricultural applications.
   - Config Files: The model parameters, such as the dataset path and class names, were defined in the config.yaml file, while the training process was managed by the custom_dataset_yolo_train.py script.
+
 - Prediction System:
 
   - Script: The custom_data_predict.py file was used to make predictions, running on video files but also capable of processing real-time camera input.
@@ -22,6 +23,13 @@ Components and Methodology:
 Teknofest Unmanned Agriculture Vehicle Competition:
 - Participation: This project was submitted as part of Teknofest’s Unmanned Agriculture Vehicle competition, where the aim was to create autonomous systems capable of assisting in farming operations.
 - Objective: The primary task was to detect and differentiate lettuce plants from bad plants, helping farmers manage their crops more efficiently.
+
+Training and Model Files:
+
+After the training process, the resulting custom model can be found in the directory: runs\detect\yolov8n_custom\weights. This folder contains two important files:
+
+  - best.pt: The best-performing model during training.
+  - last.pt: The most recent version of the model after training.
 
 Real-World Applications:
 - Scalability: This system can be easily deployed on agricultural drones, robots, or autonomous tractors to automatically monitor crop health and identify problem areas in the field.
